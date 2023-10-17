@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1245</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="0,1,1,0">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QLabel" name="serial_label">
+         <property name="text">
+          <string>Serial number:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="serial_value">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="no_frontend_check">
+       <property name="text">
+        <string>No front-end connected</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Front-end number</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="frontend_spinner">
+         <property name="maximum">
+          <number>99999</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="reference_label_2">
+       <property name="text">
+        <string>Reference</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="reference_label">
+         <property name="text">
+          <string>TIA gain</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="reference_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the transimpedance amplifier that is being used to measure the current through Lpot and therefore determines the maximum current that can be measured. There are both current (A/V) and charge (C/V) amplifiers available. Charge amplifiers have a lower noise level, but require a low amount of 50Hz inteference and dc bias current to function properly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Lcur 370 uA/V</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Lcur 5 uA/V</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Lcur 390 pC/V</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Lcur 3.9 pC/V</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>HcurV</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>HcurI</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="cur_range_label">
+         <property name="text">
+          <string>Scope range:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="ref_range_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This determines the maximum voltage that the scope can measure. This value times the TIA gain is the maximum current/charge that can enter Lcur before it clips.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>0.2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="sig_range_label_2">
+         <property name="text">
+          <string>Scope coupling:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="ref_coupling_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the coupling of the scope. Note that when putting this to AC the offset will not be measured accurately.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>AC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DC</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="signal_label">
+       <property name="text">
+        <string>Signal</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="gain_label">
+         <property name="text">
+          <string>Gain:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="gain_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sets the gain of the instrumentation amplifier measuring between Lpot and Hpot.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>1x</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>100x</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="sig_range_label">
+         <property name="text">
+          <string>Scope range:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="sig_range_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This determines the maximum voltage that the scope can measure. This value divided by the gain is the maximum voltage that can be measured between Lpot and Hpot.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>0.2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>0.8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="sig_range_label_3">
+         <property name="text">
+          <string>Scope coupling:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="sig_coupling_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Selects the coupling of the scope. Note that when putting this to AC the offset will not be measured accurately.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>AC</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>DC</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="Excitation_label">
+       <property name="text">
+        <string>Excitation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="amplitude_label">
+         <property name="text">
+          <string>Amplitude:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="offset_label">
+         <property name="text">
+          <string>Offset:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDoubleSpinBox" name="offset_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This determines the DC offset of the excitation signal. The excitation signal will determine the voltage on HcurV and when multiplied with 370uA/V also the current through HcurI. The inverse of the excitation signal will determine the voltage on nHcurV and when multiplied with 370uA/V also the current through nHcurI.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="minimum">
+          <double>-2.200000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>2.200000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDoubleSpinBox" name="amplitude_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This sets amplitude of the sine or the maximum amplitude of the excitation signal. The excitation signal will determine the voltage on HcurV and when multiplied with 370uA/V also the current through HcurI. The inverse of the excitation signal will determine the voltage on nHcurV and when multiplied with 370uA/V also the current through nHcurI.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="maximum">
+          <double>2.200000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>0.500000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="gen_frequency_table">
+       <property name="maximumSize">
+        <size>
+         <width>220</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Here the frequencies and their weights in the multisine that is used as an excitation signal can be set. The weights are defined relative to the maximum amplitude of the signal.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="rowCount">
+        <number>1</number>
+       </property>
+       <attribute name="horizontalHeaderCascadingSectionResizes">
+        <bool>false</bool>
+       </attribute>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>95</number>
+       </attribute>
+       <row/>
+       <column>
+        <property name="text">
+         <string>Frequency</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Weight</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QPushButton" name="insert_gen_freq_button">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Can be used to add an additional frequency to the multisine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Insert</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="delete_gen_freq_button">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Can be used to remove a frequency from the multisine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Delete</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_9">
+       <item row="0" column="0">
+        <widget class="QLabel" name="fundamental_label">
+         <property name="text">
+          <string>Fundamental freq:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="fundamental_result_label">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="crest_factor_label">
+         <property name="text">
+          <string>Crest factor:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="crest_factor_result_label">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="optimise_button">
+       <property name="text">
+        <string>Optimise Crest factor</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_4" stretch="1,0,1">
+     <item>
+      <widget class="PlotWidget" name="lck1_sig_graph" native="true"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="value1_label">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="value1_value">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="PlotWidget" name="lck1_demodulate_graph_1" native="true"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_3" stretch="1,1,0,2">
+     <item>
+      <widget class="PlotWidget" name="lck1_sig_fft_graph" native="true"/>
+     </item>
+     <item>
+      <widget class="PlotWidget" name="lck1_ref_fft_graph" native="true"/>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="value2_label">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="value2_value">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="PlotWidget" name="lck1_demodulate_graph_2" native="true"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0,0,1,0,0,0">
+     <item>
+      <widget class="QLabel" name="signal_plot_label">
+       <property name="text">
+        <string>Signal plot</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="periods_label">
+         <property name="text">
+          <string>Periods:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDoubleSpinBox" name="periods_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Determines the number of repetitions that is shown in the time plot in the left top. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>1</number>
+         </property>
+         <property name="minimum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>100000.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="frequency_plot_label">
+       <property name="text">
+        <string>Frequency plot</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_5">
+       <item row="0" column="0">
+        <widget class="QLabel" name="fmin_label">
+         <property name="text">
+          <string>Minimum:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDoubleSpinBox" name="fmin_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The minimum frequency that is shown in the frequency plots on the top right.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <double>10000000.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>100.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="fmax_label">
+         <property name="text">
+          <string>Maximum:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDoubleSpinBox" name="fmax_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The maximum frequency that is shown in the frequency plots on the top right.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <double>10000000.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>100.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="Demodulate_label">
+       <property name="text">
+        <string>Demodulation</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_6">
+       <item row="0" column="0">
+        <widget class="QLabel" name="plot_time_label">
+         <property name="text">
+          <string>Plot time:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDoubleSpinBox" name="plot_time_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The amount of time shown on the x-axis of the bottom two graphs.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="bandwidth_label">
+         <property name="text">
+          <string>Bandwidth:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDoubleSpinBox" name="bandwidth_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The bandwidth of the signals in the bottom two graphs.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>2</number>
+         </property>
+         <property name="minimum">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>9999.989999999999782</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="format_label">
+         <property name="text">
+          <string>Format:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="format_combo">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The complex impedance measured by the LCR can be represented in different ways:&lt;/p&gt;&lt;p&gt;XY: As a complex and an imaginary part&lt;/p&gt;&lt;p&gt;RpCp: As a capacitor and a resistor in parallel&lt;/p&gt;&lt;p&gt;RsCs: As a capacitor and a reisistor in series&lt;/p&gt;&lt;p&gt;ZPhi: As an absolute value and a phase &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>XY</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="bandwidth_label_2">
+         <property name="text">
+          <string>Integration time:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QDoubleSpinBox" name="integration_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Over how much time the signal in the bottom two graphs in averaged to come to the displayed impedances&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>2</number>
+         </property>
+         <property name="minimum">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>9999.989999999999782</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="dem_frequency_table">
+       <property name="maximumSize">
+        <size>
+         <width>220</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Here the frequencies and their weights in the multisine that is used as an excitation signal can be set. The weights are defined relative to the maximum amplitude of the signal.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="rowCount">
+        <number>1</number>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>95</number>
+       </attribute>
+       <row/>
+       <column>
+        <property name="text">
+         <string>Frequency</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>TiePie#</string>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+         </font>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="dem_is_gen_check">
+       <property name="text">
+        <string>Same as excitation</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="insert_dem_freq_button">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Can be used to add an additional frequency to the multisine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Insert</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="delete_dem_freq_button">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Can be used to remove a frequency from the multisine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="text">
+          <string>Delete</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="Sampling_label_2">
+       <property name="text">
+        <string>Offset</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_8">
+       <item row="0" column="0">
+        <widget class="QLabel" name="offset_bandwidth_label">
+         <property name="text">
+          <string>Bandwidth:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QDoubleSpinBox" name="offset_bandwidth_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;bandwidth of the measured offset. Note that the measured offset is only visible in the saved data file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>2</number>
+         </property>
+         <property name="minimum">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>9999.989999999999782</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="offset_integration_label">
+         <property name="text">
+          <string>Integration time:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QDoubleSpinBox" name="offset_integration_spinner">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Over how much time the the offset signals are averaged to come to the displayed impedances.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>2</number>
+         </property>
+         <property name="minimum">
+          <double>0.010000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>9999.989999999999782</double>
+         </property>
+         <property name="value">
+          <double>1.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="sig_offset_label">
+         <property name="text">
+          <string>Signal offset:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="sig_offset_value">
+         <property name="minimumSize">
+          <size>
+           <width>70</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="ref_offset_label">
+         <property name="text">
+          <string>Reference offset:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="ref_offset_value">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QWidget</extends>
+   <header>pyqtgraph</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

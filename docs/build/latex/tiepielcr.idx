@@ -1,0 +1,382 @@
+\indexentry{module@\spxentry{module}!app@\spxentry{app}|hyperpage}{3}
+\indexentry{app@\spxentry{app}!module@\spxentry{module}|hyperpage}{3}
+\indexentry{module@\spxentry{module}!MainWindow@\spxentry{MainWindow}|hyperpage}{3}
+\indexentry{MainWindow@\spxentry{MainWindow}!module@\spxentry{module}|hyperpage}{3}
+\indexentry{MainWindow (class in app)@\spxentry{MainWindow}\spxextra{class in app}|hyperpage}{3}
+\indexentry{acquisition\_function() (app.MainWindow static method)@\spxentry{acquisition\_function()}\spxextra{app.MainWindow static method}|hyperpage}{3}
+\indexentry{closeEvent() (app.MainWindow method)@\spxentry{closeEvent()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{displayed\_error (app.MainWindow attribute)@\spxentry{displayed\_error}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{fs\_changed() (app.MainWindow method)@\spxentry{fs\_changed()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{get\_all\_stored\_data() (app.MainWindow method)@\spxentry{get\_all\_stored\_data()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{load\_settings() (app.MainWindow method)@\spxentry{load\_settings()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{lockins (app.MainWindow attribute)@\spxentry{lockins}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{lockins\_changed() (app.MainWindow method)@\spxentry{lockins\_changed()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{multiprocessing\_init() (app.MainWindow method)@\spxentry{multiprocessing\_init()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{new\_data (app.MainWindow attribute)@\spxentry{new\_data}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{old\_error (app.MainWindow attribute)@\spxentry{old\_error}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{plot\_data\_queue (app.MainWindow attribute)@\spxentry{plot\_data\_queue}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{reference\_range (app.MainWindow attribute)@\spxentry{reference\_range}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{save\_data() (app.MainWindow method)@\spxentry{save\_data()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{save\_data\_clicked() (app.MainWindow method)@\spxentry{save\_data\_clicked()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{save\_file\_dialog() (app.MainWindow method)@\spxentry{save\_file\_dialog()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{save\_settings() (app.MainWindow method)@\spxentry{save\_settings()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{settings\_filename (app.MainWindow attribute)@\spxentry{settings\_filename}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{settings\_folder (app.MainWindow attribute)@\spxentry{settings\_folder}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{settings\_queue (app.MainWindow attribute)@\spxentry{settings\_queue}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{start\_button\_clicked() (app.MainWindow method)@\spxentry{start\_button\_clicked()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{start\_measurement() (app.MainWindow method)@\spxentry{start\_measurement()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{state (app.MainWindow attribute)@\spxentry{state}\spxextra{app.MainWindow attribute}|hyperpage}{3}
+\indexentry{state\_timer() (app.MainWindow method)@\spxentry{state\_timer()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{stop\_measurement() (app.MainWindow method)@\spxentry{stop\_measurement()}\spxextra{app.MainWindow method}|hyperpage}{3}
+\indexentry{sub\_blocks\_changed() (app.MainWindow method)@\spxentry{sub\_blocks\_changed()}\spxextra{app.MainWindow method}|hyperpage}{4}
+\indexentry{sync\_settings() (app.MainWindow method)@\spxentry{sync\_settings()}\spxextra{app.MainWindow method}|hyperpage}{4}
+\indexentry{tcp\_daemon() (app.MainWindow method)@\spxentry{tcp\_daemon()}\spxextra{app.MainWindow method}|hyperpage}{4}
+\indexentry{update\_freq\_changed() (app.MainWindow method)@\spxentry{update\_freq\_changed()}\spxextra{app.MainWindow method}|hyperpage}{4}
+\indexentry{updating\_common\_gui (app.MainWindow attribute)@\spxentry{updating\_common\_gui}\spxextra{app.MainWindow attribute}|hyperpage}{4}
+\indexentry{updating\_gui (app.MainWindow attribute)@\spxentry{updating\_gui}\spxextra{app.MainWindow attribute}|hyperpage}{4}
+\indexentry{main() (in module app)@\spxentry{main()}\spxextra{in module app}|hyperpage}{4}
+\indexentry{module@\spxentry{module}!lockin\_tab@\spxentry{lockin\_tab}|hyperpage}{5}
+\indexentry{lockin\_tab@\spxentry{lockin\_tab}!module@\spxentry{module}|hyperpage}{5}
+\indexentry{module@\spxentry{module}!lockin\_tab@\spxentry{lockin\_tab}|hyperpage}{5}
+\indexentry{lockin\_tab@\spxentry{lockin\_tab}!module@\spxentry{module}|hyperpage}{5}
+\indexentry{lockin\_tab (class in lockin\_tab)@\spxentry{lockin\_tab}\spxextra{class in lockin\_tab}|hyperpage}{5}
+\indexentry{amplitude\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{amplitude\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{bandwidth\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{bandwidth\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{buffer\_size (lockin\_tab.lockin\_tab attribute)@\spxentry{buffer\_size}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{5}
+\indexentry{build\_demodulate\_plots() (lockin\_tab.lockin\_tab method)@\spxentry{build\_demodulate\_plots()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{build\_ref\_fft\_plot() (lockin\_tab.lockin\_tab method)@\spxentry{build\_ref\_fft\_plot()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{build\_sig\_fft\_plot() (lockin\_tab.lockin\_tab method)@\spxentry{build\_sig\_fft\_plot()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{build\_signal\_plot() (lockin\_tab.lockin\_tab method)@\spxentry{build\_signal\_plot()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{color\_list (lockin\_tab.lockin\_tab attribute)@\spxentry{color\_list}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{5}
+\indexentry{delete\_dem\_freq\_pressed() (lockin\_tab.lockin\_tab method)@\spxentry{delete\_dem\_freq\_pressed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{delete\_gen\_freq\_pressed() (lockin\_tab.lockin\_tab method)@\spxentry{delete\_gen\_freq\_pressed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{dem\_frequency\_table\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{dem\_frequency\_table\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{dem\_is\_gen\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{dem\_is\_gen\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{dem\_time\_vec (lockin\_tab.lockin\_tab attribute)@\spxentry{dem\_time\_vec}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{5}
+\indexentry{dynamic\_update\_gui() (lockin\_tab.lockin\_tab method)@\spxentry{dynamic\_update\_gui()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{first\_time\_reference\_changed (lockin\_tab.lockin\_tab attribute)@\spxentry{first\_time\_reference\_changed}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{5}
+\indexentry{fmax\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{fmax\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{fmin\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{fmin\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{format\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{format\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{format\_demodulate\_labels() (lockin\_tab.lockin\_tab method)@\spxentry{format\_demodulate\_labels()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{format\_ref\_fft\_label() (lockin\_tab.lockin\_tab method)@\spxentry{format\_ref\_fft\_label()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{format\_ref\_label() (lockin\_tab.lockin\_tab method)@\spxentry{format\_ref\_label()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{format\_sig\_fft\_label() (lockin\_tab.lockin\_tab method)@\spxentry{format\_sig\_fft\_label()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{format\_sig\_label() (lockin\_tab.lockin\_tab method)@\spxentry{format\_sig\_label()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{gain\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{gain\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{5}
+\indexentry{gen\_frequency\_table\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{gen\_frequency\_table\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{gui\_update\_required (lockin\_tab.lockin\_tab attribute)@\spxentry{gui\_update\_required}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{host (lockin\_tab.lockin\_tab attribute)@\spxentry{host}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{insert\_dem\_freq\_pressed() (lockin\_tab.lockin\_tab method)@\spxentry{insert\_dem\_freq\_pressed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{insert\_gen\_freq\_pressed() (lockin\_tab.lockin\_tab method)@\spxentry{insert\_gen\_freq\_pressed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{int\_demodulate\_1 (lockin\_tab.lockin\_tab attribute)@\spxentry{int\_demodulate\_1}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{int\_demodulate\_2 (lockin\_tab.lockin\_tab attribute)@\spxentry{int\_demodulate\_2}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{integration\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{integration\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{offset\_bandwidth\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{offset\_bandwidth\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{offset\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{offset\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{offset\_integration\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{offset\_integration\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{optimise\_pressed() (lockin\_tab.lockin\_tab method)@\spxentry{optimise\_pressed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{pen\_ref (lockin\_tab.lockin\_tab attribute)@\spxentry{pen\_ref}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{pen\_sig (lockin\_tab.lockin\_tab attribute)@\spxentry{pen\_sig}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{periods\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{periods\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{plot\_time\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{plot\_time\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{plotting\_timer() (lockin\_tab.lockin\_tab method)@\spxentry{plotting\_timer()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{port (lockin\_tab.lockin\_tab attribute)@\spxentry{port}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{ref\_color (lockin\_tab.lockin\_tab attribute)@\spxentry{ref\_color}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{ref\_coupling\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{ref\_coupling\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{ref\_range\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{ref\_range\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{reference\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{reference\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{set\_demodulation\_freqs() (lockin\_tab.lockin\_tab method)@\spxentry{set\_demodulation\_freqs()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{set\_multisine() (lockin\_tab.lockin\_tab method)@\spxentry{set\_multisine()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{set\_y\_range() (lockin\_tab.lockin\_tab method)@\spxentry{set\_y\_range()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{sig\_color (lockin\_tab.lockin\_tab attribute)@\spxentry{sig\_color}\spxextra{lockin\_tab.lockin\_tab attribute}|hyperpage}{6}
+\indexentry{sig\_coupling\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{sig\_coupling\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{sig\_range\_changed() (lockin\_tab.lockin\_tab method)@\spxentry{sig\_range\_changed()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{sync\_tables() (lockin\_tab.lockin\_tab method)@\spxentry{sync\_tables()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{update\_colors() (lockin\_tab.lockin\_tab method)@\spxentry{update\_colors()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{update\_gui() (lockin\_tab.lockin\_tab method)@\spxentry{update\_gui()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{update\_signal\_plot\_views() (lockin\_tab.lockin\_tab method)@\spxentry{update\_signal\_plot\_views()}\spxextra{lockin\_tab.lockin\_tab method}|hyperpage}{6}
+\indexentry{module@\spxentry{module}!TiePieLCR@\spxentry{TiePieLCR}|hyperpage}{7}
+\indexentry{TiePieLCR@\spxentry{TiePieLCR}!module@\spxentry{module}|hyperpage}{7}
+\indexentry{module@\spxentry{module}!TiePieLCR@\spxentry{TiePieLCR}|hyperpage}{7}
+\indexentry{TiePieLCR@\spxentry{TiePieLCR}!module@\spxentry{module}|hyperpage}{7}
+\indexentry{TiePieLCR (class in TiePieLCR)@\spxentry{TiePieLCR}\spxextra{class in TiePieLCR}|hyperpage}{7}
+\indexentry{I2C\_ADDRESS (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_ADDRESS}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_CARSELECT (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_CARSELECT}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_GAIN (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_GAIN}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_LEDOUT0 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_LEDOUT0}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_LEDOUT1 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_LEDOUT1}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_MODE1 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_MODE1}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_NONE (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_NONE}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_RANGE1 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_RANGE1}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_RANGE2 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_RANGE2}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_RANGE3 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_RANGE3}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{I2C\_RANGE4 (TiePieLCR.TiePieLCR attribute)@\spxentry{I2C\_RANGE4}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{b\_bandpass (TiePieLCR.TiePieLCR attribute)@\spxentry{b\_bandpass}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{bandpass\_fir\_filter() (TiePieLCR.TiePieLCR static method)@\spxentry{bandpass\_fir\_filter()}\spxextra{TiePieLCR.TiePieLCR static method}|hyperpage}{7}
+\indexentry{base\_freq\_vector (TiePieLCR.TiePieLCR attribute)@\spxentry{base\_freq\_vector}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{base\_time\_vector (TiePieLCR.TiePieLCR attribute)@\spxentry{base\_time\_vector}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{7}
+\indexentry{block\_number (TiePieLCR.TiePieLCR attribute)@\spxentry{block\_number}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{block\_number\_process (TiePieLCR.TiePieLCR attribute)@\spxentry{block\_number\_process}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{clipping\_counter\_ref (TiePieLCR.TiePieLCR attribute)@\spxentry{clipping\_counter\_ref}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{clipping\_counter\_sig (TiePieLCR.TiePieLCR attribute)@\spxentry{clipping\_counter\_sig}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{close() (TiePieLCR.TiePieLCR method)@\spxentry{close()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{8}
+\indexentry{design\_bandpass\_fir\_filter() (TiePieLCR.TiePieLCR static method)@\spxentry{design\_bandpass\_fir\_filter()}\spxextra{TiePieLCR.TiePieLCR static method}|hyperpage}{8}
+\indexentry{do\_the\_ffts() (TiePieLCR.TiePieLCR method)@\spxentry{do\_the\_ffts()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{8}
+\indexentry{filt\_win (TiePieLCR.TiePieLCR attribute)@\spxentry{filt\_win}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{gen (TiePieLCR.TiePieLCR attribute)@\spxentry{gen}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{get\_data() (TiePieLCR.TiePieLCR method)@\spxentry{get\_data()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{8}
+\indexentry{get\_stored\_data() (TiePieLCR.TiePieLCR method)@\spxentry{get\_stored\_data()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{8}
+\indexentry{i2c (TiePieLCR.TiePieLCR attribute)@\spxentry{i2c}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{lockins (TiePieLCR.TiePieLCR attribute)@\spxentry{lockins}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{low\_freq\_hilbert() (TiePieLCR.TiePieLCR static method)@\spxentry{low\_freq\_hilbert()}\spxextra{TiePieLCR.TiePieLCR static method}|hyperpage}{8}
+\indexentry{offset\_bins (TiePieLCR.TiePieLCR attribute)@\spxentry{offset\_bins}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{offset\_win (TiePieLCR.TiePieLCR attribute)@\spxentry{offset\_win}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{old\_reference\_data (TiePieLCR.TiePieLCR attribute)@\spxentry{old\_reference\_data}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{old\_signal\_data (TiePieLCR.TiePieLCR attribute)@\spxentry{old\_signal\_data}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{8}
+\indexentry{open\_gen() (TiePieLCR.TiePieLCR method)@\spxentry{open\_gen()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{open\_scope() (TiePieLCR.TiePieLCR method)@\spxentry{open\_scope()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{process\_data() (TiePieLCR.TiePieLCR method)@\spxentry{process\_data()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{reset\_buffers() (TiePieLCR.TiePieLCR method)@\spxentry{reset\_buffers()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{rfft\_convolute() (TiePieLCR.TiePieLCR static method)@\spxentry{rfft\_convolute()}\spxextra{TiePieLCR.TiePieLCR static method}|hyperpage}{9}
+\indexentry{scp (TiePieLCR.TiePieLCR attribute)@\spxentry{scp}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{9}
+\indexentry{select\_LCR\_gain() (TiePieLCR.TiePieLCR method)@\spxentry{select\_LCR\_gain()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{select\_reference() (TiePieLCR.TiePieLCR method)@\spxentry{select\_reference()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{serial\_numbers (TiePieLCR.TiePieLCR attribute)@\spxentry{serial\_numbers}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{9}
+\indexentry{set\_settings() (TiePieLCR.TiePieLCR method)@\spxentry{set\_settings()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{settings (TiePieLCR.TiePieLCR attribute)@\spxentry{settings}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{9}
+\indexentry{sos\_decimate (TiePieLCR.TiePieLCR attribute)@\spxentry{sos\_decimate}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{9}
+\indexentry{sos\_offset (TiePieLCR.TiePieLCR attribute)@\spxentry{sos\_offset}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{9}
+\indexentry{start\_awg() (TiePieLCR.TiePieLCR method)@\spxentry{start\_awg()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{start\_measurement() (TiePieLCR.TiePieLCR method)@\spxentry{start\_measurement()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{start\_stream() (TiePieLCR.TiePieLCR method)@\spxentry{start\_stream()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{9}
+\indexentry{state (TiePieLCR.TiePieLCR attribute)@\spxentry{state}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{10}
+\indexentry{stop\_gen() (TiePieLCR.TiePieLCR method)@\spxentry{stop\_gen()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{10}
+\indexentry{stop\_measurement() (TiePieLCR.TiePieLCR method)@\spxentry{stop\_measurement()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{10}
+\indexentry{stop\_stream() (TiePieLCR.TiePieLCR method)@\spxentry{stop\_stream()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{10}
+\indexentry{update\_base\_vectors() (TiePieLCR.TiePieLCR method)@\spxentry{update\_base\_vectors()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{10}
+\indexentry{update\_filter\_coefs() (TiePieLCR.TiePieLCR method)@\spxentry{update\_filter\_coefs()}\spxextra{TiePieLCR.TiePieLCR method}|hyperpage}{10}
+\indexentry{window\_cpu (TiePieLCR.TiePieLCR attribute)@\spxentry{window\_cpu}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{10}
+\indexentry{window\_gpu (TiePieLCR.TiePieLCR attribute)@\spxentry{window\_gpu}\spxextra{TiePieLCR.TiePieLCR attribute}|hyperpage}{10}
+\indexentry{module@\spxentry{module}!acquisition@\spxentry{acquisition}|hyperpage}{11}
+\indexentry{acquisition@\spxentry{acquisition}!module@\spxentry{module}|hyperpage}{11}
+\indexentry{module@\spxentry{module}!acquisition@\spxentry{acquisition}|hyperpage}{11}
+\indexentry{acquisition@\spxentry{acquisition}!module@\spxentry{module}|hyperpage}{11}
+\indexentry{acquisition (class in acquisition)@\spxentry{acquisition}\spxextra{class in acquisition}|hyperpage}{11}
+\indexentry{build\_tiepie\_list() (acquisition.acquisition method)@\spxentry{build\_tiepie\_list()}\spxextra{acquisition.acquisition method}|hyperpage}{11}
+\indexentry{data\_aquisition\_daemon() (acquisition.acquisition method)@\spxentry{data\_aquisition\_daemon()}\spxextra{acquisition.acquisition method}|hyperpage}{11}
+\indexentry{fft\_daemon() (acquisition.acquisition method)@\spxentry{fft\_daemon()}\spxextra{acquisition.acquisition method}|hyperpage}{11}
+\indexentry{fft\_package\_list (acquisition.acquisition attribute)@\spxentry{fft\_package\_list}\spxextra{acquisition.acquisition attribute}|hyperpage}{11}
+\indexentry{package\_list (acquisition.acquisition attribute)@\spxentry{package\_list}\spxextra{acquisition.acquisition attribute}|hyperpage}{11}
+\indexentry{processing\_daemon() (acquisition.acquisition method)@\spxentry{processing\_daemon()}\spxextra{acquisition.acquisition method}|hyperpage}{11}
+\indexentry{module@\spxentry{module}!TiePieLCR\_settings@\spxentry{TiePieLCR\_settings}|hyperpage}{13}
+\indexentry{TiePieLCR\_settings@\spxentry{TiePieLCR\_settings}!module@\spxentry{module}|hyperpage}{13}
+\indexentry{module@\spxentry{module}!TiePieLCR\_settings@\spxentry{TiePieLCR\_settings}|hyperpage}{13}
+\indexentry{TiePieLCR\_settings@\spxentry{TiePieLCR\_settings}!module@\spxentry{module}|hyperpage}{13}
+\indexentry{TiePieLCR\_settings (class in TiePieLCR\_settings)@\spxentry{TiePieLCR\_settings}\spxextra{class in TiePieLCR\_settings}|hyperpage}{13}
+\indexentry{Vmax (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{Vmax}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{bandwidth (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{bandwidth}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{base\_vector\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{base\_vector\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{calculate\_downsapling\_rate() (TiePieLCR\_settings.TiePieLCR\_settings static method)@\spxentry{calculate\_downsapling\_rate()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings static method}|hyperpage}{13}
+\indexentry{calculate\_gen\_data\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{calculate\_gen\_data\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{13}
+\indexentry{crest\_factor\_cost\_function() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{crest\_factor\_cost\_function()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{13}
+\indexentry{dem\_freq\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{dem\_freq\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{dem\_freqs (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{dem\_freqs}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{dem\_is\_gen (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{dem\_is\_gen}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{dem\_tiepies (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{dem\_tiepies}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{demodulate\_plot\_points (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{demodulate\_plot\_points}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{enabled (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{enabled}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{f\_fun (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{f\_fun}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{f\_max (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{f\_max}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{f\_min (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{f\_min}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fft\_plot\_points (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fft\_plot\_points}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fft\_sensitivity (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fft\_sensitivity}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fmax\_plot (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fmax\_plot}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fmin\_plot (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fmin\_plot}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fs\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fs\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fs\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fs\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{fs\_setting (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{fs\_setting}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{gain\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gain\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{gain\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gain\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{13}
+\indexentry{gain\_setting (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gain\_setting}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gain\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gain\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gcd() (TiePieLCR\_settings.TiePieLCR\_settings static method)@\spxentry{gcd()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings static method}|hyperpage}{14}
+\indexentry{gen\_amplitude (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_amplitude}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_amplitude\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_amplitude\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_freqs (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_freqs}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_offset (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_offset}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_offset\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_offset\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_phases (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_phases}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_restart\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_restart\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_sample\_freq (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_sample\_freq}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_sample\_freq\_max (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_sample\_freq\_max}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_samples\_max (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_samples\_max}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_samples\_min (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_samples\_min}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{gen\_weights (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{gen\_weights}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{14}
+\indexentry{get\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{14}
+\indexentry{get\_demodulate\_plot\_points() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_demodulate\_plot\_points()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{14}
+\indexentry{get\_demodulation\_bandwidth() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_demodulation\_bandwidth()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{14}
+\indexentry{get\_demodulation\_freqs() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_demodulation\_freqs()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{14}
+\indexentry{get\_demodulation\_tiepies() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_demodulation\_tiepies()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{14}
+\indexentry{get\_demodulation\_time\_vector() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_demodulation\_time\_vector()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{14}
+\indexentry{get\_df() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_df()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_f\_fun() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_f\_fun()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_f\_max() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_f\_max()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_f\_min() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_f\_min()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_fft\_sensitivity() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_fft\_sensitivity()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_final\_offset\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_final\_offset\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_final\_output\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_final\_output\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_gain\_name\_list() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gain\_name\_list()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_gain\_setting() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gain\_setting()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_gain\_value() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gain\_value()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{15}
+\indexentry{get\_gen\_amplitude() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gen\_amplitude()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_gen\_offset() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gen\_offset()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_gen\_sample\_freq() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gen\_sample\_freq()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_gen\_samples() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_gen\_samples()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_impedance\_format() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_impedance\_format()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_impedance\_format\_label1() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_impedance\_format\_label1()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_impedance\_format\_label2() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_impedance\_format\_label2()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{16}
+\indexentry{get\_impedance\_format\_unit1() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_impedance\_format\_unit1()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_impedance\_format\_unit2() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_impedance\_format\_unit2()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_integration\_time() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_integration\_time()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_maximum\_plot\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_maximum\_plot\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_measurement\_z() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_measurement\_z()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_minimum\_plot\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_minimum\_plot\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_multisine\_crest\_factor() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_multisine\_crest\_factor()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_multisine\_freqs() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_multisine\_freqs()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_multisine\_phases() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_multisine\_phases()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_multisine\_vector() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_multisine\_vector()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{17}
+\indexentry{get\_multisine\_weights() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_multisine\_weights()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_number\_of\_demodulate\_freqs() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_number\_of\_demodulate\_freqs()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_number\_of\_demodulation\_freqs() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_number\_of\_demodulation\_freqs()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_number\_of\_multisine\_freqs() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_number\_of\_multisine\_freqs()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_offset\_bandwidth() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_bandwidth()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_offset\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_offset\_downsampling\_rate() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_downsampling\_rate()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_offset\_integration\_time() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_integration\_time()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_offset\_sample\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_sample\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{18}
+\indexentry{get\_offset\_sub\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_sub\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_offset\_time\_vector() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_offset\_time\_vector()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_output\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_output\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_output\_downsampling\_rate() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_output\_downsampling\_rate()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_output\_oversample\_ratio() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_output\_oversample\_ratio()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_output\_sample\_freq() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_output\_sample\_freq()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_output\_sub\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_output\_sub\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{19}
+\indexentry{get\_plot\_blocks() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_plot\_blocks()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_plot\_periods() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_plot\_periods()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_plot\_time() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_plot\_time()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_gain() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_gain()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_name\_list() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_name\_list()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_offset\_unit() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_offset\_unit()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_scope\_coupling() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_scope\_coupling()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_scope\_range\_index() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_scope\_range\_index()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_scope\_range\_value() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_scope\_range\_value()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_setting() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_setting()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{20}
+\indexentry{get\_reference\_unit() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_reference\_unit()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_sample\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_sample\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_scope\_coupling\_name\_list() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_scope\_coupling\_name\_list()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_scope\_range\_list() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_scope\_range\_list()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_settings\_dict() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_settings\_dict()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_signal\_scope\_coupling() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_signal\_scope\_coupling()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_signal\_scope\_range\_index() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_signal\_scope\_range\_index()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_signal\_scope\_range\_value() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_signal\_scope\_range\_value()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_sub\_block\_freq() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_sub\_block\_freq()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{21}
+\indexentry{get\_sub\_block\_size() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_sub\_block\_size()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{22}
+\indexentry{get\_sub\_blocks() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_sub\_blocks()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{22}
+\indexentry{get\_sub\_blocks\_list() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_sub\_blocks\_list()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{22}
+\indexentry{get\_time\_plot\_points() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_time\_plot\_points()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{22}
+\indexentry{get\_update\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{get\_update\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{22}
+\indexentry{impedance\_format (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{impedance\_format}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{impedance\_format\_label1 (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{impedance\_format\_label1}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{impedance\_format\_label2 (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{impedance\_format\_label2}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{impedance\_format\_unit1 (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{impedance\_format\_unit1}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{impedance\_format\_unit2 (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{impedance\_format\_unit2}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{impedance\_formats (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{impedance\_formats}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{inst (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{inst}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{22}
+\indexentry{integration\_time (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{integration\_time}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{lcm() (TiePieLCR\_settings.TiePieLCR\_settings static method)@\spxentry{lcm()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings static method}|hyperpage}{23}
+\indexentry{load\_settings() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{load\_settings()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{23}
+\indexentry{max\_sample\_frequency (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{max\_sample\_frequency}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{multisine\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{multisine\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{offset\_bandwidth (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{offset\_bandwidth}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{offset\_integration\_time (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{offset\_integration\_time}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{optimise\_crest() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{optimise\_crest()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{23}
+\indexentry{output\_block\_size (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{output\_block\_size}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{output\_oversample\_ratio (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{output\_oversample\_ratio}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{plot\_periods (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{plot\_periods}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{plot\_points (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{plot\_points}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{plot\_time (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{plot\_time}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{protection\_C (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{protection\_C}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{protection\_R (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{protection\_R}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{real\_time\_mode (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{real\_time\_mode}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_C (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_C}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_R (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_R}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_gain\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_gain\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_offset\_unit\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_offset\_unit\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_setting (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_setting}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_unit\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_unit\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reference\_update\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{reference\_update\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{reset() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{reset()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{23}
+\indexentry{restart\_required (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{restart\_required}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{sample\_frequency (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{sample\_frequency}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{23}
+\indexentry{save\_memory (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{save\_memory}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{save\_settings() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{save\_settings()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{24}
+\indexentry{scope\_auto\_ranging (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_auto\_ranging}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{scope\_coupling\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_coupling\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{scope\_couplings (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_couplings}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{scope\_couplings\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_couplings\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{scope\_range\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_range\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{scope\_range\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_range\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{scope\_ranges (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{scope\_ranges}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{24}
+\indexentry{set\_LCR\_gain() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_LCR\_gain()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{24}
+\indexentry{set\_amplitude() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_amplitude()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{24}
+\indexentry{set\_demodulation\_bandwidth() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_demodulation\_bandwidth()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{24}
+\indexentry{set\_demodulation\_params() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_demodulation\_params()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{24}
+\indexentry{set\_impedance\_format() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_impedance\_format()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{24}
+\indexentry{set\_integration\_time() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_integration\_time()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_maximum\_plot\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_maximum\_plot\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_minimum\_plot\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_minimum\_plot\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_multisine() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_multisine()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_offset() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_offset()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_offset\_bandwidth() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_offset\_bandwidth()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_offset\_integration\_time() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_offset\_integration\_time()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{25}
+\indexentry{set\_plot\_periods() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_plot\_periods()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_plot\_time() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_plot\_time()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_reference() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_reference()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_reference\_scope\_coupling() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_reference\_scope\_coupling()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_reference\_scope\_range() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_reference\_scope\_range()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_sample\_frequency() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_sample\_frequency()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_signal\_scope\_coupling() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_signal\_scope\_coupling()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{26}
+\indexentry{set\_signal\_scope\_range() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_signal\_scope\_range()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{27}
+\indexentry{set\_sub\_blocks() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_sub\_blocks()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{27}
+\indexentry{set\_update\_freq() (TiePieLCR\_settings.TiePieLCR\_settings method)@\spxentry{set\_update\_freq()}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings method}|hyperpage}{27}
+\indexentry{settings\_dict (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{settings\_dict}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{side\_lob\_n (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{side\_lob\_n}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{sub\_blocks\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{sub\_blocks\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{sub\_blocks\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{sub\_blocks\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{sub\_blocks\_setting (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{sub\_blocks\_setting}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{update\_freq\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{update\_freq\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{update\_freq\_name\_list (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{update\_freq\_name\_list}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{update\_freq\_setting (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{update\_freq\_setting}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{version (TiePieLCR\_settings.TiePieLCR\_settings attribute)@\spxentry{version}\spxextra{TiePieLCR\_settings.TiePieLCR\_settings attribute}|hyperpage}{27}
+\indexentry{module@\spxentry{module}!impedance@\spxentry{impedance}|hyperpage}{29}
+\indexentry{impedance@\spxentry{impedance}!module@\spxentry{module}|hyperpage}{29}
+\indexentry{module@\spxentry{module}!impedance@\spxentry{impedance}|hyperpage}{29}
+\indexentry{impedance@\spxentry{impedance}!module@\spxentry{module}|hyperpage}{29}
+\indexentry{impedance (class in impedance)@\spxentry{impedance}\spxextra{class in impedance}|hyperpage}{29}
+\indexentry{error1 (impedance.impedance attribute)@\spxentry{error1}\spxextra{impedance.impedance attribute}|hyperpage}{29}
+\indexentry{error2 (impedance.impedance attribute)@\spxentry{error2}\spxextra{impedance.impedance attribute}|hyperpage}{29}
+\indexentry{ref\_clipped (impedance.impedance attribute)@\spxentry{ref\_clipped}\spxextra{impedance.impedance attribute}|hyperpage}{29}
+\indexentry{ref\_offset (impedance.impedance attribute)@\spxentry{ref\_offset}\spxextra{impedance.impedance attribute}|hyperpage}{29}
+\indexentry{set\_clipping() (impedance.impedance method)@\spxentry{set\_clipping()}\spxextra{impedance.impedance method}|hyperpage}{29}
+\indexentry{set\_errors() (impedance.impedance method)@\spxentry{set\_errors()}\spxextra{impedance.impedance method}|hyperpage}{29}
+\indexentry{set\_offsets() (impedance.impedance method)@\spxentry{set\_offsets()}\spxextra{impedance.impedance method}|hyperpage}{29}
+\indexentry{set\_timestamp() (impedance.impedance method)@\spxentry{set\_timestamp()}\spxextra{impedance.impedance method}|hyperpage}{29}
+\indexentry{set\_values() (impedance.impedance method)@\spxentry{set\_values()}\spxextra{impedance.impedance method}|hyperpage}{30}
+\indexentry{sig\_clipped (impedance.impedance attribute)@\spxentry{sig\_clipped}\spxextra{impedance.impedance attribute}|hyperpage}{30}
+\indexentry{sig\_offset (impedance.impedance attribute)@\spxentry{sig\_offset}\spxextra{impedance.impedance attribute}|hyperpage}{30}
+\indexentry{timestamp (impedance.impedance attribute)@\spxentry{timestamp}\spxextra{impedance.impedance attribute}|hyperpage}{30}
+\indexentry{valid (impedance.impedance attribute)@\spxentry{valid}\spxextra{impedance.impedance attribute}|hyperpage}{30}
+\indexentry{value1 (impedance.impedance attribute)@\spxentry{value1}\spxextra{impedance.impedance attribute}|hyperpage}{30}
+\indexentry{value2 (impedance.impedance attribute)@\spxentry{value2}\spxextra{impedance.impedance attribute}|hyperpage}{30}

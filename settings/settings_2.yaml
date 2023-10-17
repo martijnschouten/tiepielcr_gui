@@ -1,0 +1,118 @@
+bandwidth: 20
+dem_freqs:
+- 5000.0
+dem_is_gen: true
+dem_tiepies:
+- 2
+fft_plot_points: 200
+fmax_plot: 1000000.0
+fmin_plot: 100
+frontend_number: 1
+fs_list:
+- 6250000
+- 3125000
+- 1562500
+- 781250
+fs_name_list:
+- '6250000'
+- '3125000'
+- '1562500'
+- '781250'
+fs_setting: 1
+gain: 0
+gen_amplitude: 2.0
+gen_freqs:
+- 5000.0
+gen_offset: 0
+gen_phases:
+- 0
+gen_weights:
+- 1.0
+impedance_format: 0
+impedance_format_label1:
+- X
+- Rp
+- Rs
+- Z
+impedance_format_label2:
+- Y
+- Cp
+- Cs
+- Phi
+impedance_format_unit1:
+- Ω
+- Ω
+- Ω
+- Ω
+impedance_format_unit2:
+- Ω
+- F
+- F
+- rad
+impedance_formats:
+- XY
+- RpCp
+- RsCs
+- ZPhi
+integration_time: 1
+no_frontend: true
+offset_bandwidth: 20
+offset_integration_time: 1
+plot_periods: 3.0
+plot_points: 200
+plot_time: 5
+real_time_mode: false
+reference: 6
+scope_coupling_name_list:
+- AC
+- DC
+scope_couplings:
+- 1
+- 1
+scope_range_list:
+- 0.2
+- 0.4
+- 0.8
+- 2
+- 4
+- 8
+scope_range_name_list:
+- '0.2'
+- '0.4'
+- '0.8'
+- '2'
+- '4'
+- '8'
+scope_ranges:
+- 3
+- 3
+serial_numbers: []
+sub_blocks_list:
+- 1
+- 2
+- 5
+- 10
+- 20
+- 50
+sub_blocks_name_list:
+- '1'
+- '2'
+- '5'
+- '10'
+- '20'
+- '50'
+sub_blocks_setting: 0
+update_freq_list:
+- 1
+- 2
+- 5
+- 10
+- 25
+update_freq_name_list:
+- 1 Hz
+- 2 Hz
+- 5 Hz
+- 10 Hz
+- 25 Hz
+update_freq_setting: 3
+version: V1.0.3

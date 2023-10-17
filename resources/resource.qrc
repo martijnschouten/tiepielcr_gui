@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="resources">
+    <file>NWO.jpg</file>
+    <file>tmsi.png</file>
+    <file>UT.png</file>
+  </qresource>
+</RCC>
