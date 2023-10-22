@@ -7,8 +7,8 @@ A precompiled version of the code in this repository can be downloaded from: htt
 
 Note that in order to use leverage the GPU for the demodulation cuda toolkit 11.3 should downloaded and installed. It can be downloaded from: https://developer.nvidia.com/cuda-downloads
 
-# compilation
-In order to compile the python code manually:
+# Instructions
+In order run the python code:
 
 windows:
 1. download and install the tiepie HS5 usb driver from https://www.tiepie.com/en/usb-oscilloscope/handyscope-hs5#downloads
