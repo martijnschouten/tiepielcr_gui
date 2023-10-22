@@ -1,6 +1,8 @@
 # tiepielcr_gui
 This project provides a graphical interface for the tiepieLCR. The hardware of the tiepieLCR consists of a TiePie Engineering HS5 and a custom front end which can be downloaded from [here](https://github.com/martijnschouten/tiepielcr-hardware)
 
+![GUI](https://github.com/martijnschouten/tiepielcr_gui/assets/6079002/29a33b71-5dbc-4170-9a40-ec1b3164a94f)
+
 A precompiled version of the code in this repository can be downloaded from: https://martijnschouten.stackstorage.nl/s/dTPoGPGhHa92hxrv
 
 Note that in order to use leverage the GPU for the demodulation cuda toolkit 11.3 should downloaded and installed. It can be downloaded from: https://developer.nvidia.com/cuda-downloads
