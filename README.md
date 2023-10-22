@@ -1,4 +1,4 @@
-# tiepielcr_gui
+# TiePieLCR gui
 This project provides a graphical interface for the tiepieLCR. The hardware of the tiepieLCR consists of a TiePie Engineering HS5 and a custom front end which can be downloaded from [here](https://github.com/martijnschouten/tiepielcr-hardware)
 
 ![GUI](https://github.com/martijnschouten/tiepielcr_gui/assets/6079002/29a33b71-5dbc-4170-9a40-ec1b3164a94f)
