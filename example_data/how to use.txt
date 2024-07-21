@@ -1,0 +1,12 @@
+The files can be opened using:
+import scipy.io as sio
+A = sio.loadmat(file)
+
+The mat files contain several variables:
+-timestamps: this are the unix timestamps belonging to the impedance measurements
+-time: this is the time that elapsed in seconds since the measurement started, belonging to the impedance measurements
+-impedance data: This is the an array of complex values giving the complex impedance at each channel at frequency
+-ref_offset: This is the low frequency part of the reference (=current) signal
+-sig_offset: THis is the low frequency part of the voltage signal
+-offset_tim: This is the time that elapsed in seconds since the measurement started, belonging to the ref_offset and sig_offset measurement
+-settings: contains all the setting used during the experiment.
